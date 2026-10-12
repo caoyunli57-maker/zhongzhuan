@@ -1,0 +1,70 @@
+{
+  "source_labeled_images": 746,
+  "included_images": 731,
+  "classes": 142,
+  "validation_eligible_classes": 52,
+  "classes_below_5": 90,
+  "excluded": [
+    {
+      "source": "合格/12头鲍鱼_12-tou-bao-yu/001-12头鲍鱼-1787624249168.jpg",
+      "reason": "identical image has conflicting class labels"
+    },
+    {
+      "source": "合格/shan-sun/002-shan-sun-1788240565749.jpg",
+      "reason": "duplicate decoded pixels within class"
+    },
+    {
+      "source": "合格/shan-sun/003-shan-sun-1788240593033.jpg",
+      "reason": "duplicate decoded pixels within class"
+    },
+    {
+      "source": "合格/shan-sun/006-shan-sun-1788240684922.jpg",
+      "reason": "duplicate decoded pixels within class"
+    },
+    {
+      "source": "合格/冬瓜_dong-gua/001-冬瓜-1787618256007.webp",
+      "reason": "identical image has conflicting class labels"
+    },
+    {
+      "source": "合格/去皮雷竹笋_qu-pi-lei-zhu-sun/001-去皮雷竹笋-1787618332223.jpg",
+      "reason": "identical image has conflicting class labels"
+    },
+    {
+      "source": "合格/去皮雷竹笋_qu-pi-lei-zhu-sun/002-去皮雷竹笋-1787618559092.webp",
+      "reason": "identical image has conflicting class labels"
+    },
+    {
+      "source": "合格/去皮鲜白果_qu-pi-xian-bai-guo/001-去皮鲜白果-1787618569229.webp",
+      "reason": "identical image has conflicting class labels"
+    },
+    {
+      "source": "合格/牛肉丸子_niu-rou-wan-zi/001-牛肉丸子-1787619505719.webp",
+      "reason": "identical image has conflicting class labels"
+    },
+    {
+      "source": "合格/白菜_bai-cai/001-白菜-1787590605494.jpg",
+      "reason": "identical image has conflicting class labels"
+    },
+    {
+      "source": "合格/白菜_bai-cai/003-白菜-1787620041858.webp",
+      "reason": "identical image has conflicting class labels"
+    },
+    {
+      "source": "合格/白菜_bai-cai/004-白菜-1787620641520.webp",
+      "reason": "identical image has conflicting class labels"
+    },
+    {
+      "source": "合格/青条椒_qing-tiao-jiao/004-青条椒-1789050091941.jpg",
+      "reason": "duplicate decoded pixels within class"
+    },
+    {
+      "source": "合格/青豆_qing-dou/001-青豆-1787618321832.webp",
+      "reason": "identical image has conflicting class labels"
+    },
+    {
+      "source": "不合格/小苹果_xiao-ping-guo/001-小苹果-1788080041499.jpg",
+      "reason": "identical image has conflicting class labels"
+    }
+  ],
+  "unclassified_images_excluded": 27
+}

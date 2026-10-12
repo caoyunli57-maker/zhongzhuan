@@ -1,0 +1,14 @@
+# RK3576 电子秤商品识别 —— 训练环境依赖
+# 安装方式 (Windows 本机, 使用已创建的独立环境):
+#   venv\Scripts\python.exe -m pip install -r requirements.txt
+#
+# 注意: torch / torchvision 需按显卡驱动匹配 CUDA 版本单独安装,
+#       见 install_env.ps1, 不要用本文件里的默认源装 (会装成 CPU 版)。
+
+# 说明: torch 2.6 + torchvision 已随 CUDA 版安装并带入 numpy 2.x,
+#       此处不再固定 numpy 版本, 避免降级导致与 torch 冲突。
+#       onnx / onnxruntime 选取兼容 numpy 2.x 的版本。
+numpy>=1.26
+pillow>=9.0
+onnx>=1.16
+onnxruntime>=1.19

@@ -1,0 +1,14 @@
+.venv/
+venv/
+__pycache__/
+*.pyc
+runs/
+train_output/
+*.pth
+*.pt
+*.onnx
+*.rknn
+.env
+.env.*
+Thumbs.db
+.DS_Store
